@@ -1,0 +1,21 @@
+{
+  "name": "default-directory-index-redirect",
+  "version": "0.1.0",
+  "description": "AWS Lambda function for redirecting requests to default directory indexes.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -f default-directory-index-redirect*",
+    "package": "zip default-directory-index-redirect.zip ./* -r",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chantzlarge/default-directory-index-redirect.git"
+  },
+  "author": "Chantz Large <contact@chantzlarge.com> (https://chantzlarge.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chantzlarge/default-directory-index-redirect/issues"
+  },
+  "homepage": "https://github.com/chantzlarge/default-directory-index-redirect#readme"
+}
