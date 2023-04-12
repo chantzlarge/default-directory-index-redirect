@@ -1,5 +1,7 @@
 # default-directory-index-redirect
 
+A default directory index redirect lambda function that can be used to redirect AWS Cloudfront requests to S3 buckets with directory references.
+
 ## TL;DR
 
 - This-is an [AWS Lambda](https://aws.amazon.com/lambda/) function
