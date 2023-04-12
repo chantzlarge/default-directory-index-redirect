@@ -23,17 +23,25 @@ This-is an [AWS Lambda](https://aws.amazon.com/lambda/) function used-for interc
 
 ### Installation
 
-```
+```shell
 npm i
 ```
 
 ## Usage
 
+### Compile
+
+Compiles the TypeScript into JavaScript using [tsc](https://www.npmjs.com/package/typescript):
+
+```shell
+npm run compile
+```
+
 ### Clean
 
 Removes packages and other files matching `default-directory-index-redirect*`:
 
-```
+```shell
 npm run clean
 ```
 
@@ -41,7 +49,7 @@ npm run clean
 
 Packages application for deployment to [AWS Lambda](https://aws.amazon.com/lambda/) using `zip`:
 
-```
+```shell
 npm run package
 ```
 
@@ -65,18 +73,7 @@ See [Lambda depoyment packages | AWS](https://docs.aws.amazon.com/lambda/latest/
 
 ## Versioning
 
-```
-Given a version number MAJOR.MINOR.PATCH, increment the:
-
-- MAJOR version when you make incompatible API changes,
-- MINOR version when you add functionality in a backwards compatible manner, and
-- PATCH version when you make backwards compatible bug fixes.
-
-Additional labels for pre-release and build metadata are available as 
-extensions to the MAJOR.MINOR.PATCH format.
-```
-
-For more information, visit [https://semver.org](https://semver.org).
+This project uses [semantic versioning](https://semver.org) and [GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) to publish new versions and manage releases.
 
 ## License
 
