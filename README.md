@@ -1,16 +1,10 @@
-[//]: # (https://gist.github.com/0xlarge/0241e2a11a4cc49b628332b3520c08af)
-
-# [@chantzlarge](https://github.com/chantzlarge/default-directory-index-redirect/)/[default-directory-index-redirect](https://github.com/chantzlarge/default-directory-index-redirect/)
+# default-directory-index-redirect
 
 ## TL;DR
 
-- This-is;
-  - an [AWS Lambda](https://aws.amazon.com/lambda/) function
-- Used-for;
-  - intercepting viewer-requests to an [AWS Cloudfront](https://aws.amazon.com/cloudfront/) distribution and rewriting requests to default directory indexes
-- Built-with;
-  - [AWS](https://aws.amazon.com/)
-  - [NodeJS](https://nodejs.org/)
+- This-is an [AWS Lambda](https://aws.amazon.com/lambda/) function
+- Used-for intercepting viewer-requests to an [AWS Cloudfront](https://aws.amazon.com/cloudfront/) distribution and rewriting requests to default directory indexes
+- Built-with [AWS](https://aws.amazon.com/), [NodeJS](https://nodejs.org/), and [TypeScript](https:typescriptlang.org).
 
 ## Getting Started
 
