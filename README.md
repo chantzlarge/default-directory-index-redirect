@@ -25,12 +25,12 @@ npm i
 
 ## Usage
 
-### Compile
+### Build
 
-Compiles the TypeScript into JavaScript using [tsc](https://www.npmjs.com/package/typescript):
+Compiles the TypeScript into JavaScript using [tsc](https://www.npmjs.com/package/typescript) and writes the result to the `dist/` directory:
 
 ```shell
-npm run compile
+npm run build
 ```
 
 ### Clean
@@ -46,7 +46,15 @@ npm run clean
 Packages application for deployment to [AWS Lambda](https://aws.amazon.com/lambda/) using `zip`:
 
 ```shell
-npm run package
+npm run pack
+```
+
+### Test
+
+Tests the application using [jest](https://jestjs.io/docs/getting-started):
+
+```shell
+npm run test
 ```
 
 ## Contributing

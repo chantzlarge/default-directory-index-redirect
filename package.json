@@ -4,10 +4,10 @@
   "description": "AWS Lambda function for redirecting requests to default directory indexes.",
   "main": "dist/handler.js",
   "scripts": {
+    "build": "tsc",
     "clean": "rm -rf dist* default-directory-index-redirect*",
-    "compile": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "zip": "npm-pack-zip"
+    "pack": "npm-pack-zip",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
