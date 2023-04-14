@@ -59,8 +59,7 @@ See [Lambda depoyment packages | AWS](https://docs.aws.amazon.com/lambda/latest/
 
 ## Built-with
 
-- [AWS](https://docs.aws.amazon.com/index.html)
-  - [Lambda](https://docs.aws.amazon.com/lambda)
+- [AWS Lambda](https://docs.aws.amazon.com/lambda)
 - [NodeJS](https://nodejs.org/en/docs/)
 
 ## Author
